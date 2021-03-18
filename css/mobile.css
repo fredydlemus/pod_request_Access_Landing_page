@@ -1,0 +1,22 @@
+:root{
+    /* colors */
+    --mint-green: #54E6AF;
+    --dark-blue: #121725;
+    --white: #FFFFFF;
+    --light-blue: #2c344b;
+    --skyblue: #c2cbe5;
+    --light-purple: #5a668a;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Chivo', sans-serif;
+    scroll-behavior: smooth;
+}
