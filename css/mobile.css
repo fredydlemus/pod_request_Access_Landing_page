@@ -20,3 +20,65 @@ html{
     font-family: 'Chivo', sans-serif;
     scroll-behavior: smooth;
 }
+
+body{
+    background-image: url('../assets/mobile/image-host.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+body::before{
+    content:'';
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(18, 23, 37, 0.9);
+}
+
+.header_container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    min-width: 320px;
+    height: 257px;
+    justify-content: center;
+    text-align: center;
+}
+
+header img{
+    width: 135px;
+    height: 56px;
+    margin-top: 61px;
+    align-self: center;
+
+}
+
+.header_title_container{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    height: 141px;
+    margin: 0 auto;
+    margin-top: 65px;
+    text-align: center;
+    align-self: center;
+
+}
+
+.header_title_container h1{
+    font-size: 2.6rem;
+    line-height: 3.8rem;
+    font-weight: 300;
+    color: var(--mint-green);
+}
+
+.header_container h1 p{
+    color: var(--white);
+}
