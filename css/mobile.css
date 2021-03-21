@@ -82,3 +82,91 @@ header img{
 .header_container h1 p{
     color: var(--white);
 }
+
+main{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.main_description_container .main_description_title_container{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 25px;
+    
+    
+
+}
+
+.main_description_title_container p{
+    width: 85%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 300;
+    color: var(--skyblue);
+    
+
+}
+
+.main_description_logos_container{
+    display: flex;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 35px;
+    
+}
+
+.main_description_logos_container .spotify{
+    display: inline-flex;
+    flex-grow: 1;
+    width: auto;
+    height: 17px;
+    background-image: url('../assets/desktop/spotify.svg');
+    background-size: 56px 17px;
+    background-position: 75% 0;
+    background-repeat: no-repeat;
+    
+}
+
+.main_description_logos_container .apple{
+    display: inline-flex;
+    flex-grow: 1;
+    width: auto;
+    height: 17px;
+    background-image: url('../assets/desktop/apple-podcast.svg');
+    background-size: 45px 17px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.main_description_logos_container .google{
+    display: inline-flex;
+    flex-grow: 1;
+    width: auto;
+    height: 17px;
+    background-image: url('../assets/desktop/google-podcasts.svg');
+    background-size: 73px 11px;
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+
+.main_description_logos_container .pocket{
+    display: inline-flex;
+    flex-grow: 1;
+    width: auto;
+    height: 17px;
+    background-image: url('../assets/desktop/pocket-casts.svg');
+    background-size: 75px 14px;
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
