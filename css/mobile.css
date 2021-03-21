@@ -220,3 +220,12 @@ main{
     border: 0;
     color: var(--dark-blue);
 }
+
+.main_form_container form label button:hover{
+    background-color: #B3FFE2;
+    
+}
+
+.main_form_container form label input:valid{
+    color: var(--white);
+}
