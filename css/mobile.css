@@ -228,4 +228,7 @@ main{
 
 .main_form_container form label input:valid{
     color: var(--white);
+    font-weight: bold;
+    font-family: 'Chivo', sans-serif;
+    font-size: 1.4rem;
 }
