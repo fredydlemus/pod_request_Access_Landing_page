@@ -46,7 +46,7 @@ body::before{
     flex-direction: column;
     text-align: center;
     width: 100%;
-    min-width: 320px;
+    min-width: 280px;
     height: 257px;
     justify-content: center;
     text-align: center;
@@ -127,7 +127,7 @@ main{
     display: inline-flex;
     flex-grow: 1;
     width: auto;
-    height: 17px;
+    height: 18px;
     background-image: url('../assets/desktop/spotify.svg');
     background-size: 56px 17px;
     background-position: 75% 0;
@@ -139,7 +139,7 @@ main{
     display: inline-flex;
     flex-grow: 1;
     width: auto;
-    height: 17px;
+    height: 18px;
     background-image: url('../assets/desktop/apple-podcast.svg');
     background-size: 45px 17px;
     background-position: center;
@@ -151,7 +151,7 @@ main{
     display: inline-flex;
     flex-grow: 1;
     width: auto;
-    height: 17px;
+    height: 18px;
     background-image: url('../assets/desktop/google-podcasts.svg');
     background-size: 73px 11px;
     background-position: left;
@@ -163,10 +163,60 @@ main{
     display: inline-flex;
     flex-grow: 1;
     width: auto;
-    height: 17px;
+    height: 18px;
     background-image: url('../assets/desktop/pocket-casts.svg');
     background-size: 75px 14px;
     background-position: left;
     background-repeat: no-repeat;
     
+}
+
+.main_form_container{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 45px;
+    text-align: center;
+}
+
+.main_form_container form{
+    margin: 0 auto;
+}
+
+.main_form_container form label{
+    display: flex;
+    flex-direction: column;
+    width: 326px;
+    margin: 0 auto;
+
+}
+
+.main_form_container form label input{
+    height: 46px;
+    border-radius: 5rem;
+    margin-bottom: 15px;
+    background-color: var(--light-blue);
+    border: 0;
+    font-weight: 700;
+    font-family: 'Chivo', sans-serif;
+    padding-left: 33px;
+   
+}
+
+.main_form_container form label input::placeholder{
+    color: #c2c2c2;
+    
+    
+}
+
+.main_form_container form label button{
+    height: 46px;
+    border-radius: 5rem;
+    /* font-family: 'Chivo', sans-serif; */
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 2.8rem;
+    background-color: var(--mint-green);
+    border: 0;
+    color: var(--dark-blue);
 }
